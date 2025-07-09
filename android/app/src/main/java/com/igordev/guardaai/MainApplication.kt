@@ -1,4 +1,4 @@
-package com.guardaai
+package com.igordev.guardaai
 
 import android.app.Application
 import android.content.res.Configuration

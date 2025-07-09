@@ -1,4 +1,4 @@
-package com.guardaai
+package com.igordev.guardaai
 
 import android.os.Build
 import android.os.Bundle
