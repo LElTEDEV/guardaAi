@@ -1,0 +1,27 @@
+import { colors } from "@/theme/colors";
+import { fontFamily } from "@/theme/fontFamily";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    gap: 5,
+  },
+
+  header: {
+    gap: 5,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  label: {
+    fontSize: 10,
+    color: colors.blue[300],
+    fontFamily: fontFamily.regular,
+  },
+
+  value: {
+    fontSize: 18,
+    color: colors.white,
+    fontFamily: fontFamily.regular,
+  },
+});
