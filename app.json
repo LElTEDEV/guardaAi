@@ -4,6 +4,7 @@
     "slug": "guardaAi",
     "scheme": "guardaAi",
     "version": "1.0.0",
+
     "android": {
       "package": "com.igordev.guardaai",
       "edgeToEdgeEnabled": true,
@@ -12,13 +13,12 @@
         "backgroundColor": "#3D44CD"
       }
     },
+
     "ios": {
       "bundleIdentifier": "com.igordev.guardaai",
       "icon": "./assets/ios-icon.png"
     },
-    "plugins": [
-      "expo-router",
-      "expo-font"
-    ]
+
+    "plugins": ["expo-router", "expo-font", "expo-sqlite"]
   }
 }
